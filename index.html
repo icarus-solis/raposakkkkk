@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Jornada da Raposa Quimera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>A Jornada da Raposa Quimera</h1>
+        <div id="story">
+            <p>Você é Tsuki, uma raposa quimera em busca da Cabaça dos Destinos. Ela pode conceder imortalidade ou humanidade, e suas escolhas irão determinar seu destino.</p>
+        </div>
+        <div id="choices">
+            <button onclick="makeChoice(1)">Explorar a floresta</button>
+            <button onclick="makeChoice(2)">Seguir pelo rio</button>
+        </div>
+        <div id="status">
+            <p>Pontos de sabedoria: <span id="wisdom">0</span></p>
+            <p>Imortalidade ou humanidade: <span id="fate">Indefinido</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

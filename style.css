@@ -1,0 +1,92 @@
+/* Estilo geral da página */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #7807c850; /* Fundo claro */
+    color: #2c3e50; /* Texto escuro */
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546198.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725580800&semt=ais_hybrid); /* Imagem de fundo mais suave e minimalista */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo levemente translúcido */
+    border: 2px solid #2980b9; /* Bordas azuladas */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do título */
+h1 {
+    text-align: center;
+    color: #2980b9; /* Azul vibrante para o título */
+    font-family: 'Noto Serif', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo da história */
+#story {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #34495e; /* Cinza escuro */
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.9); /* Fundo muito suave e quase branco */
+    border-left: 5px solid #2980b9;
+    border-radius: 5px;
+}
+
+/* Estilo dos botões de escolha */
+#choices button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #3498db; /* Botões azul médio */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover nos botões */
+#choices button:hover {
+    background-color: #2980b9; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilo do status */
+#status {
+    margin-top: 20px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #34495e;
+}
+
+/* Texto dos status */
+#status p {
+    margin: 5px 0;
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    #story {
+        font-size: 1.1em;
+    }
+
+    #choices button {
+        font-size: 1em;
+    }
+}
